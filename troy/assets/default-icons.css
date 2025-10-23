@@ -1,0 +1,51 @@
+@font-face {
+    font-family: "tg_default_icons";
+    src: url("../fonts/tg-default/tg_default.ttf?e3deef4d25a8a816ffcc2046eac5a266") format("truetype"),
+   
+}
+
+i[class^="tg-icon-"]:before, i[class*=" tg-icon-"]:before {
+    font-family: tg_default_icons !important;
+    font-style: normal;
+    font-weight: normal !important;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+[class*="tg-icon-"] {
+    display: block;
+    line-height: 0;
+}
+
+.tg-icon-menu:before {
+    content: "\f101";
+}
+.tg-icon-menu-1:before {
+    content: "\f102";
+}
+.tg-icon-dots-menu:before {
+    content: "\f103";
+}
+.tg-icon-menu-2:before {
+    content: "\f104";
+}
+.tg-icon-close:before {
+    content: "\f105";
+}
+.tg-icon-close-1:before {
+    content: "\f106";
+}
+.tg-icon-arrowhead-up:before {
+    content: "\f107";
+}
+.tg-icon-arrow-up:before {
+    content: "\f108";
+}
+.tg-icon-plus:before {
+    content: "\f109";
+}
+.tg-icon-minus-sign:before {
+    content: "\f10a";
+}

@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Troy Titan ICO</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="troy/assets/animate.min.css">
+    <style>
+      body {
+        font-family: 'Inter', sans-serif;
+      }
+      .tg-btn {
+        background: transparent;
+        border: 2px solid #64FFDA;
+        color: #64FFDA;
+        border-radius: 8px;
+        padding: 0;
+        height: 60px;
+        text-transform: uppercase;
+        font-weight: 600;
+        letter-spacing: -0.02em;
+        line-height: 1;
+        gap: 8px;
+        transition: all 0.3s ease;
+      }
+      .tg-btn svg {
+        transition: all 0.3s ease;
+      }
+      .tg-btn:hover {
+        background: rgba(100, 255, 218, 0.1);
+        transform: translateY(-3px);
+        box-shadow: 0 10px 20px rgba(100, 255, 218, 0.1);
+      }
+      .tg-btn span {
+        background: transparent;
+        border-radius: 0;
+        padding: 7px 16px 7px 12px;
+        gap: 12px;
+        display: inline-flex;
+        align-items: center;
+      }
+      .tg-btn-two {
+        background: #64FFDA;
+        border-color: #64FFDA;
+        color: #020C1B;
+        box-shadow: 0 0 15px rgba(100, 255, 218, 0.3), 0 0 25px rgba(100, 255, 218, 0.2) inset;
+      }
+      .tg-btn-two span {
+        background: transparent;
+        color: #020C1B;
+      }
+      .tg-btn-two:hover {
+        background: transparent;
+        color: #64FFDA;
+        transform: translateY(-3px);
+        box-shadow: 0 10px 25px rgba(100, 255, 218, 0.2);
+      }
+      .tg-btn-two:hover span {
+         color: #64FFDA;
+      }
+       .tg-btn-two:hover svg path {
+         fill: #64FFDA;
+      }
+      .alltuchtopdown {
+        animation: alltuchtopdown 3s ease-in-out 0s infinite alternate;
+      }
+      @keyframes alltuchtopdown {
+        0% { transform: translateY(0px); }
+        50% { transform: translateY(-20px); }
+        100% { transform: translateY(0px); }
+      }
+      .animate-spin-slow {
+        animation: spin 20s linear infinite;
+      }
+      @keyframes spin {
+        from { transform: rotate(0deg); }
+        to { transform: rotate(360deg); }
+      }
+    </style>
+  <script type="importmap">
+{
+  "imports": {
+    "react-dom/": "https://aistudiocdn.com/react-dom@^19.2.0/",
+    "react/": "https://aistudiocdn.com/react@^19.2.0/",
+    "react": "https://aistudiocdn.com/react@^19.2.0"
+  }
+}
+</script>
+</head>
+  <body class="bg-[#020C1B] text-[#CCD6F6]">
+    <div id="root"></div>
+    <script type="module" src="/index.tsx"></script>
+    <script src="troy/assets/particles.min.js"></script>
+    <script src="troy/assets/particles-config.js"></script>
+    <script src="troy/assets/wow.min.js"></script>
+  </body>
+</html>
